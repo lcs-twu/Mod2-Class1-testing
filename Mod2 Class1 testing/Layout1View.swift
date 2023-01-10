@@ -11,14 +11,13 @@ struct Layout1View: View {
     var body: some View {
         VStack{
             AsyncImage(url: URL(string:
-            "https://loremflickr.com/320/240"))
-            .frame(width:300, height:200)
-            Spacer()
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nisl nisi scelerisque eu ultrices vitae. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Vulputate odio ut enim blandit. Mi bibendum neque egestas congue quisque egestas diam in.")
-            
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nisl nisi scelerisque eu ultrices vitae. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Vulputate odio ut enim blandit. Mi bibendum neque egestas congue quisque egestas diam in.")
-            
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nisl nisi scelerisque eu ultrices vitae. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Vulputate odio ut enim blandit. Mi bibendum neque egestas congue quisque egestas diam in.")
+                                    "https://loremflickr.com/320/240"))
+            .frame(width:300, height:300)
+            HStack{
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nisl nisi scelerisque eu ultrices vitae. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Vulputate odio ut enim blandit. Mi bibendum neque egestas congue quisque egestas diam in.")
+                
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nisl nisi scelerisque eu ultrices vitae. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Vulputate odio ut enim blandit. Mi bibendum neque egestas congue quisque egestas diam in.")
+            }
         }
     }
 }

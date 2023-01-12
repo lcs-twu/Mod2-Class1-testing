@@ -11,7 +11,6 @@ struct LayoutsView: View {
     var body: some View {
         List {
             VStack{
-                HStack{
                     NavigationLink(destination: {
                         Layout1View()
                     }, label: {
@@ -30,7 +29,6 @@ struct LayoutsView: View {
                         Text("Layout3")
                     })
                 }
-            }
         }
         .padding()
     }
